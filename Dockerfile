@@ -11,8 +11,6 @@ RUN apt-get install -y git wget unzip \
                 ngspice
 # This places the shared library to a standard place
 
-RUN apt-get install python3-wheel
-
 RUN python3 -m pip install --upgrade pip
 RUN python3 -m pip install --upgrade Pillow
 
